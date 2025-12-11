@@ -6,11 +6,11 @@
    ============================ */
 
 /* -------------- CONFIG -------------- */
-// News API key (you provided)
+// News API key 
 const NEWS_API_KEY = "afc07da79d0b071bd12783a176bf72b8";
 
-// Weather API: you must insert your OpenWeatherMap API key here
-// Get one at https://openweathermap.org/api (free tier). Replace the placeholder string below.
+
+// Get one at https://openweathermap.org/api (free tier).
 const WEATHER_API_KEY = "d6ff0fb85a9a0f702bfe4cf6944e0edf";
 
 /* -------------- STATE -------------- */
@@ -326,3 +326,4 @@ searchInput.addEventListener("keypress", (e) => {
 cityOverrideInput.addEventListener("keypress", (e) => {
   if (e.key === "Enter") applyCityBtn.click();
 });
+
